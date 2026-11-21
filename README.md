@@ -17,6 +17,7 @@ Website mô phỏng đặt lịch sân thể thao và bộ kịch bản kiểm t
     ├── vendor/             # Thư viện Leaflet hiển thị bản đồ
     ├── run_web.py          # Web server nội bộ bằng Python 3
     ├── MO-WEB.bat          # Script mở nhanh web trên Windows
+    ├── HUONG-DAN.md        # Hướng dẫn chi tiết sử dụng với Selenium IDE
     └── 45 Test/            # Bộ 6 file kiểm thử Selenium IDE (.side)
 ```
 
@@ -43,3 +44,5 @@ Các file `.side` sử dụng Base URL mặc định là `http://localhost:8000/
 | `nhom11_kiemthu_thanhtoan.side` | Kiểm thử thanh toán | 6 |
 | `nhom11_kiemthu_full.side` | Luồng kiểm thử tổng hợp | 1 |
 | **Tổng cộng** | | **45** |
+
+Chi tiết quy tắc dữ liệu và xử lý xung đột cổng xem thêm tại [alobo-web-ide/HUONG-DAN.md](alobo-web-ide/HUONG-DAN.md).
