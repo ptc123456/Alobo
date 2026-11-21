@@ -1,4 +1,4 @@
-# Alobo — Đặt lịch sân thể thao (Nhóm 11 - Kiểm thử phần mềm)
+# Alobo (Nhóm 11 - Kiểm thử phần mềm)
 
 Website mô phỏng đặt lịch sân thể thao và bộ kịch bản kiểm thử tự động bằng **Selenium IDE** (45 test case).
 
