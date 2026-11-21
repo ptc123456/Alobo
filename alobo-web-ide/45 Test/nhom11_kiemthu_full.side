@@ -1,0 +1,471 @@
+{
+  "id": "f49d5663-fbb4-41b7-9c47-a5644c708280",
+  "version": "2.0",
+  "name": "nhom11_kiemthu_full",
+  "url": "http://localhost:8000/",
+  "tests": [{
+    "id": "68aebe4c-a97d-4261-9605-d754da5f7d5f",
+    "name": "chay thành công",
+    "commands": [{
+      "id": "33073560-789a-428b-8c50-4e6697423f20",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7ce7200-0454-4c3c-ab31-bfb5080ef538",
+      "comment": "",
+      "command": "click",
+      "target": "id=register-button",
+      "targets": [
+        ["id=register-button", "id"],
+        ["css=#register-button", "css:finder"],
+        ["xpath=//button[@id='register-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng kí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf97b96-ded9-44d5-bee7-07afd72966ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=register-name",
+      "targets": [
+        ["id=register-name", "id"],
+        ["name=name", "name"],
+        ["css=#register-name", "css:finder"],
+        ["xpath=//input[@id='register-name']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "Nhóm 11"
+    }, {
+      "id": "35c8b276-3966-4154-a186-162515ad2d18",
+      "comment": "",
+      "command": "click",
+      "target": "id=register-phone",
+      "targets": [
+        ["id=register-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#register-phone", "css:finder"],
+        ["xpath=//input[@id='register-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3230c10-4fd3-4ee2-a2da-ae5c49b2faa6",
+      "comment": "",
+      "command": "type",
+      "target": "id=register-phone",
+      "targets": [
+        ["id=register-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#register-phone", "css:finder"],
+        ["xpath=//input[@id='register-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "0946300675"
+    }, {
+      "id": "2bbd9e8a-c47c-46c6-a8f9-61d460fc94ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=register-password",
+      "targets": [
+        ["id=register-password", "id"],
+        ["name=password", "name"],
+        ["css=#register-password", "css:finder"],
+        ["xpath=//input[@id='register-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ce9b541-6c8f-48f9-975d-325979aba73e",
+      "comment": "",
+      "command": "type",
+      "target": "id=register-password",
+      "targets": [
+        ["id=register-password", "id"],
+        ["name=password", "name"],
+        ["css=#register-password", "css:finder"],
+        ["xpath=//input[@id='register-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "nghia772"
+    }, {
+      "id": "4addde6d-38d2-41b0-8a5e-de9e548b5e7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=register-confirm",
+      "targets": [
+        ["id=register-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#register-confirm", "css:finder"],
+        ["xpath=//input[@id='register-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aef403d-5fb1-4a38-b7ba-c318f962b276",
+      "comment": "",
+      "command": "type",
+      "target": "id=register-confirm",
+      "targets": [
+        ["id=register-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#register-confirm", "css:finder"],
+        ["xpath=//input[@id='register-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "nghia772"
+    }, {
+      "id": "5b0e7446-b08d-4cc5-87d2-2095f738ccc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth-submit",
+      "targets": [
+        ["id=auth-submit", "id"],
+        ["css=#auth-submit", "css:finder"],
+        ["xpath=//button[@id='auth-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b86689fe-6c0b-4feb-8549-6ab1976b14a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout-button",
+      "targets": [
+        ["id=logout-button", "id"],
+        ["css=#logout-button", "css:finder"],
+        ["xpath=//button[@id='logout-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng xuất')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c8af32-8cac-4f95-9188-dcd105acee58",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4851438f-aa16-426f-97ab-150a3b8f6e0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3489ef80-437f-4cb2-8b1b-1df380f0688e",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "0946300675"
+    }, {
+      "id": "134a21fa-78c8-48e7-aba7-7d260befbae8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d69a3083-601e-4c91-b8af-7d2682f91ff9",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "nghia772"
+    }, {
+      "id": "3b3f35d2-9b03-4c55-bb35-6127f966be0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth-submit",
+      "targets": [
+        ["id=auth-submit", "id"],
+        ["css=#auth-submit", "css:finder"],
+        ["xpath=//button[@id='auth-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a56bc3-e9b2-43c1-bb83-dcb39903607c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a10afb16-a892-444c-b58e-4af73635779f",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alobo ca"
+    }, {
+      "id": "2980facf-ee4c-4cf3-8994-5e734a21a254",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-head",
+      "targets": [
+        ["css=.section-head", "css:finder"],
+        ["xpath=//div[@id='results']/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd69679e-e52b-4bdb-be72-f22e013bd514",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "219e0cab-d64f-4adb-89ef-fe147dc73e25",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563c1325-1000-4066-b1af-b7d929feb95f",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23858c31-1e0a-4dc7-b4f5-05b88ab6176d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db1efe83-d008-442a-b2ad-2abc447891a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) > td:nth-child(14) > .slot",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(14) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[6]/td[14]/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[14]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26e0dc6-c786-4d0b-bc67-0c954b0ea560",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "863bdb0e-e266-4326-9564-f510adcf6edd",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0453ae37-1454-4959-8ab9-64d361caed92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-row:nth-child(5)",
+      "targets": [
+        ["css=.checkout-row:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b9d019c-3e45-4eaf-9b7a-0db2015357e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=pay-now",
+      "targets": [
+        ["id=pay-now", "id"],
+        ["css=#pay-now", "css:finder"],
+        ["xpath=//button[@id='pay-now']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Thanh toán ngay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d09e4911-12b6-46b1-b0f4-fcde5b25c3f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=payment-confirm",
+      "targets": [
+        ["id=payment-confirm", "id"],
+        ["css=#payment-confirm", "css:finder"],
+        ["xpath=//button[@id='payment-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ea6c3e-5040-4659-aa0e-105b32b3dce4",
+      "comment": "",
+      "command": "click",
+      "target": "id=payment-done",
+      "targets": [
+        ["id=payment-done", "id"],
+        ["css=#payment-done", "css:finder"],
+        ["xpath=//button[@id='payment-done']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Xem lịch đã đặt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb399770-9102-4bea-a973-408897e1f019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.danger",
+      "targets": [
+        ["css=.danger", "css:finder"],
+        ["xpath=//div[@id='results']/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hủy lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dea5833b-96cb-40d2-af85-dc520e44ea31",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-cancel",
+      "targets": [
+        ["id=confirm-cancel", "id"],
+        ["css=#confirm-cancel", "css:finder"],
+        ["xpath=//button[@id='confirm-cancel']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận hủy lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71de16f4-6db2-49d2-9cd0-e455a41bceeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.booking-item",
+      "targets": [
+        ["css=.booking-item", "css:finder"],
+        ["xpath=//div[@id='results']/article", "xpath:idRelative"],
+        ["xpath=//article", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "179be945-d938-47ee-a5e4-dd30dbbf1ebe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.booking-item",
+      "targets": [
+        ["css=.booking-item", "css:finder"],
+        ["xpath=//div[@id='results']/article", "xpath:idRelative"],
+        ["xpath=//article", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d84c5e17-699f-4e11-865d-d723b71607d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["68aebe4c-a97d-4261-9605-d754da5f7d5f"]
+  }],
+  "urls": ["http://localhost:8000/"],
+  "plugins": []
+}

@@ -1,0 +1,1830 @@
+{
+  "id": "7fc9981a-f33d-4572-98fd-330d0410fc88",
+  "version": "2.0",
+  "name": "nhom11_kiemthu_datlich",
+  "url": "http://localhost:8000/",
+  "tests": [{
+    "id": "63f45e40-07c8-4f65-8db8-8d9111478281",
+    "name": "1.Đặt thành công.",
+    "commands": [{
+      "id": "5b8a2f16-8140-4be7-a5b2-067c361069e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "999276e2-8493-4078-9a94-d279fab98797",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76fd2c5a-782f-44fd-b7aa-df90b43a9689",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5074b69-5210-433d-adf3-5036dff83396",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f643f8-2bb4-4645-9676-1dd27793c528",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d178f8-7c5d-427d-b0af-7ea0b89f10be",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "0946300806"
+    }, {
+      "id": "d126b2ac-1ef0-45c8-94f3-0675e31d7b96",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e57ff1-6dff-4344-89f3-02550e78677b",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "nghia772"
+    }, {
+      "id": "18624d67-bffa-4406-8649-f93cb8292fad",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth-submit",
+      "targets": [
+        ["id=auth-submit", "id"],
+        ["css=#auth-submit", "css:finder"],
+        ["xpath=//button[@id='auth-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8460f0e5-59ba-4fdb-bc74-ab2d82e5c6c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "184501e9-70d7-448a-975b-fd9c7e063143",
+      "comment": "",
+      "command": "click",
+      "target": "css=#choose-court > strong",
+      "targets": [
+        ["css=#choose-court > strong", "css:finder"],
+        ["xpath=//button[@id='choose-court']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'ĐẶT LỊCH THEO SÂN - TRỰC QUAN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6aea50d-9fc6-489d-a91c-8c8b8b14abbb",
+      "comment": "",
+      "command": "type",
+      "target": "id=booking-date",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af56a4bb-c33c-44f2-ba39-af7efcb9de17",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9460e218-a5de-4c71-a11d-d70eb2b094c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(13) > .slot",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(13) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr/td[13]/button", "xpath:idRelative"],
+        ["xpath=//td[13]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b649c1d-734a-4bf6-806f-6ef0031c7b9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee48e952-424d-4e93-888e-21cb942017dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22efb4d5-a774-4715-8f91-03bc4eca7f9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "571cdb63-2c68-4ca1-8879-326acca34386",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95471d34-4810-4544-950a-ac92487f20aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0745a9-a5ee-4109-ad94-2d0d7ebddfe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2cd4a0a-413c-4524-8f61-d3834bc1db34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eee7252-8c2f-48a1-87b0-311d57ccf080",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3cb0d31b-c727-4a9d-9c5f-5c79c9292c52",
+    "name": "2.Chưa chọn giờ",
+    "commands": [{
+      "id": "292acb5b-7140-49de-a893-18b7deee8990",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c9db00-5a57-43ef-af35-9d5f70c30ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1079b9af-0acb-4be5-9a0e-e66e3f169a08",
+      "comment": "",
+      "command": "click",
+      "target": "css=#choose-court > strong",
+      "targets": [
+        ["css=#choose-court > strong", "css:finder"],
+        ["xpath=//button[@id='choose-court']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'ĐẶT LỊCH THEO SÂN - TRỰC QUAN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a82dd68-5972-467d-b885-e301755fb069",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7224a1b2-ca6e-461d-bbf7-222dec4be62a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d52e3e-b834-4ef4-a6e5-40132be2ad6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03a95b3-6081-466c-8ddd-e6ab8a3935e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ea73ada-1abc-45e7-85d0-011422d572fb",
+    "name": "3.Chọn giờ đã đặt",
+    "commands": [{
+      "id": "5db04fa2-504a-4d75-8131-605a9fe9dea8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6644a8a7-67fc-4b6b-bdf0-36308fb5fa92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5197818-d08e-4a39-a678-40fae2896daa",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc9599c-d08b-4e7d-9d46-c0b5c093f0c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d00c0740-2104-4873-ae80-f629b9999582",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de907cd0-45fa-4a59-b442-fd5deef2d43f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2) > .slot",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr/td[2]/button", "xpath:idRelative"],
+        ["xpath=//td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4188e579-7e8a-4b11-baee-97f639b8e32a",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40620e5a-cba8-4235-97da-21e8c16aac50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e7a86b-b288-4e5e-9f65-3524875c95e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "33b42699-8369-4643-81ab-a5e561993a2d",
+    "name": "4.Chọn nhiều giờ.",
+    "commands": [{
+      "id": "a7fac3e2-8c63-4594-8688-f4f583378fac",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "402bba9a-10d4-4e12-98bc-dbdb180d673b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa5307c-3071-4a64-84f7-2a595266a82d",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07d6f95a-b63e-4392-a5c7-bc632166e92e",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4b887f-d272-414a-bace-33501533ed5a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d7344b9-9c2c-4382-9770-6867714672f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(6) > .slot",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(6) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[2]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4801437c-de7f-4ecc-8e90-9c8ecef1a2ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(7) > .slot",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(7) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[2]/td[7]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb17dffb-88bf-4001-acee-9247b952177f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(8) > .slot",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(8) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[2]/td[8]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf9c12e-48ee-4427-96b9-ab776e8720f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(9) > .slot",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(9) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[2]/td[9]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5949e9fe-393e-4d17-8f12-5f1c1edb5d4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5702a812-0c68-4f0a-bad1-8209c4469ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97bfc9c-6d75-4278-8312-edf03b493296",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9432446d-8a71-4bb2-bf09-a0322d017e6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "946e3840-f881-4088-a4f1-2e3cab8c2a0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7d55b29-b2dd-4d4c-a913-f6ebeb16e2d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ddcc8c-4c64-4f20-a553-a8928aba7ea4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a321e1ec-f071-4761-90ef-ac59a2674928",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b6fc763b-f2fc-41c3-ae17-7513b4140486",
+    "name": "5.Bỏ chọn khung giờ",
+    "commands": [{
+      "id": "3b0e1059-a283-4204-8bb1-7b727771825f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9722ffb-8079-4e02-a7bf-c78192d7a484",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7a8a22-b38c-474b-ac02-ac0a618b9f04",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fdcdfba-0a0b-4d76-aa3d-85bb378ca79f",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e26dd5c6-e6ca-4067-a1f6-98ff096282a2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baf3e151-9087-4fbb-b651-13470184e3c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(8) > .slot",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(8) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[8]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "822d5fa8-10f0-4b90-9db1-18d52b6089f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(9) > .slot",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(9) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[9]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a8e668-2825-4a17-a55f-1de0b79bf28d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(10) > .slot",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(10) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[10]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[10]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5431c5d-8f99-4a12-a16c-d4e5b9ff4963",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(11) > .slot",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(11) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[11]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b26802c9-7f5b-4f46-8cd2-2ef0affa3a6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(11) > .chosen",
+      "targets": [
+        ["css=td:nth-child(11) > .chosen", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[11]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b45b06d-b928-4aa4-a6c9-bfccfefa14b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(10) > .chosen",
+      "targets": [
+        ["css=td:nth-child(10) > .chosen", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[10]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[10]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4990a45b-b26c-4cca-aadc-89b97cd442ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(9) > .chosen",
+      "targets": [
+        ["css=td:nth-child(9) > .chosen", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[9]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1054d233-5bf5-45a9-aa1f-2168f64b3577",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen",
+      "targets": [
+        ["css=.chosen", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[8]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'✓')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c85af87-2ffb-44ba-b29a-ecf8e2cff19c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0dd08a-ce63-4fc3-a116-9803b39e1bb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea94ee5-5d5d-4145-9b98-224757fecc57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa655434-4e28-4770-bf42-89c2b4ffaedc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d8d53a-bc2e-4627-a3ac-7a2c912843ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af5ee8d2-ff58-4220-9a37-0c6e19bfc970",
+    "name": "6.Đổi ngày khi đã chọn giờ",
+    "commands": [{
+      "id": "bb62fd08-a366-4b47-bd87-2aed80c225e7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "296caff4-75cc-4deb-816b-fef0ef7840a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "989052fb-24ec-41ca-a60a-57b703e41a16",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ff65b1-1a03-439d-b872-231478aa9690",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(19) > .slot",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(19) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[3]/td[19]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[19]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efc01f8d-696d-46c7-b298-58d3be9659ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(20) > .slot",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(20) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[3]/td[20]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[20]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "960d0e5e-afa1-4cc0-b366-a819d59b0893",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "427d3172-d5ea-4fe9-87fd-8a182608a62c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f542c305-2cec-4d9e-8910-38f6e70f04de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d0caaf2-83ad-4eb9-83a7-91bd1a650b3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d77ffe-3f63-4a88-baef-689385be285f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bc16c6-b666-44d1-a38e-09bd2a7247a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "194534a4-f3c1-4f54-9097-24f745034031",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selection-summary",
+      "targets": [
+        ["css=.selection-summary", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f6dd33be-154b-47ea-bc9e-094babd6b10a",
+    "name": "7.Chọn ngày trong quá khứ",
+    "commands": [{
+      "id": "21ae52be-c6f9-417a-a973-dc590fcbb7d1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92440ab9-47c5-4d51-b30e-9e45d0999b1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d218cf1-e6c2-43bf-beb5-6cfcdcbdf69b",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc4445d-6d44-4cc1-a7f7-683df879db71",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d854fd-7e55-4066-9f14-df035650feae",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2025-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6676a635-33ae-4905-9a73-e29cf267cb35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "392808da-ffa1-4e05-9b80-036e5755709c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6abcf0f0-177f-45e4-8cec-41cb36a1a9b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95407aed-fe20-4976-a839-a0c914112c74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c394b2-6ab1-4af6-b987-60a8ff131b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.schedule-note",
+      "targets": [
+        ["css=.schedule-note", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d8fa83b3-8953-402a-829a-34b698484720",
+    "name": "8.Đặt khi chưa đăng nhập.",
+    "commands": [{
+      "id": "5126c16f-f926-466b-b75e-a37028953c32",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f74c6617-eee4-46a7-a374-46b7fba82eb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout-button",
+      "targets": [
+        ["id=logout-button", "id"],
+        ["css=#logout-button", "css:finder"],
+        ["xpath=//button[@id='logout-button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng xuất')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85148a66-7b1f-4d92-98ca-f29c106b62d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb5e4d4-120b-4134-bc6c-8e2d4d86917c",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e5f2c3-a0f4-44d0-b969-9d6550a552db",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2d5b9a-02e1-4ee1-bb78-1e0886edb2b1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de240ba5-a6fc-4364-b8b1-4dffa794174d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(9) > .slot",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(9) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[4]/td[9]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a8d6a9-92e8-4002-b550-a656217e62da",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(10) > .slot",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(10) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[4]/td[10]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[10]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f646835-77ad-45ec-a258-91247886b015",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(11) > .slot",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(11) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[4]/td[11]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d200f802-1b45-47d0-8202-b0c76736746f",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2854b30f-05aa-4ee8-82a5-73b8980bdf64",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "625dd62d-b704-4a37-85c2-b439fc1b2590",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-phone",
+      "targets": [
+        ["id=login-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#login-phone", "css:finder"],
+        ["xpath=//input[@id='login-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "0946300806"
+    }, {
+      "id": "75e6d7a9-1f5f-4931-93f3-7aa1c7c8d181",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e4541b-177f-4481-b57b-f96d555c8f15",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "nghia772"
+    }, {
+      "id": "1c297f4f-6641-4a24-a16c-3610ab5bc0b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth-submit",
+      "targets": [
+        ["id=auth-submit", "id"],
+        ["css=#auth-submit", "css:finder"],
+        ["xpath=//button[@id='auth-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='auth-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81f2471-5e64-46b8-903d-21da14b782cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "524a7846-7aae-4237-a8ab-4bcacf245810",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "251ed6da-1f82-4143-a384-bade735f61ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ad177c2-e990-441d-8cf9-40ec058a1c48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f3dc39-ddb1-4454-b55d-4d26bc0d6128",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal",
+      "targets": [
+        ["css=.modal", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e25e5c89-d386-48d8-b57e-8f4746412140",
+    "name": "9.Người đặt trống",
+    "commands": [{
+      "id": "19894596-4870-4c9d-a400-b78f8174bad9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a218b525-b527-484e-b4fa-60df7809133d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc1bf51-6864-494f-8cac-614b089cc81d",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e22b64-a407-4705-8372-13769baab210",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aedc813-9acc-4499-adcb-e15e51a817a8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0bf6cb9-deb1-4450-806f-4a06c6a2508d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(7) > .slot",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(7) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[7]/td[7]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87175390-c420-4056-af16-2f9fe9c64b57",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbea4ece-8548-4815-b2dc-8d79f904bdd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer-name",
+      "targets": [
+        ["id=customer-name", "id"],
+        ["name=name", "name"],
+        ["css=#customer-name", "css:finder"],
+        ["xpath=//input[@id='customer-name']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae9d652-2005-4064-8210-471b217c4446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64ee6e95-67d6-4622-9874-35cb4e78b0d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80aba76b-4e20-4547-8e1c-df865705bd33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf714f0-76fe-49c7-befa-4d0d4bbf9c08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3dde206b-4c79-4b65-bfd0-75a0a988da82",
+    "name": "10.SDT sai",
+    "commands": [{
+      "id": "749f3d3f-1919-4e86-b58f-15d0cfbb737e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1cc8f91-686f-4bff-8248-20bdc8b7cc06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "153930a0-ff69-48ce-a2da-63c53c57fda3",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b1982f1-6a88-4172-bb74-052bfdd71eb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4e2c14-9c54-4ffe-a26c-d53726a6cc64",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf431f2d-d627-461b-8532-8a9204700099",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .slot",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[3]/td[2]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "052cf699-c84a-4c5e-8356-e5ddc22fe6f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a5ce5cd-3050-49c0-974b-2fdcf7841ffd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlay",
+      "targets": [
+        ["css=.overlay", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "188f8523-59b9-4fc3-ba31-b6e4ed9e6442",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer-phone",
+      "targets": [
+        ["id=customer-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#customer-phone", "css:finder"],
+        ["xpath=//input[@id='customer-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "000011111"
+    }, {
+      "id": "dbf8e6e3-38e2-48a3-95df-71e51fe66d90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.total",
+      "targets": [
+        ["css=.total", "css:finder"],
+        ["xpath=//form[@id='checkout-form']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ed29fd-aaca-4e89-9b32-1ba7cd550d2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c6a172-431b-4269-91c0-a8e3d02c0796",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3237d6b1-ea0f-4d66-b0b5-30a1717a8467",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7f2edf85-4a93-41b3-8ee9-2fdcbfb06eac",
+    "name": "11.Hủy lịch đặt.",
+    "commands": [{
+      "id": "2d44c2ba-bed6-427a-86ce-4c0acdae7f55",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc51402f-de78-473a-afe6-2d9d7457f00b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .book-btn",
+      "targets": [
+        ["css=.card:nth-child(1) .book-btn", "css:finder"],
+        ["xpath=//div[@id='results']/div[2]/article/div[2]/button", "xpath:idRelative"],
+        ["xpath=//article/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐẶT LỊCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ca8f29-a2fe-4507-89fa-ff18822963f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=choose-court",
+      "targets": [
+        ["id=choose-court", "id"],
+        ["css=#choose-court", "css:finder"],
+        ["xpath=//button[@id='choose-court']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59beaebd-f64d-4f7e-8a7b-c1152af7aea4",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-date",
+      "targets": [
+        ["id=booking-date", "id"],
+        ["css=#booking-date", "css:finder"],
+        ["xpath=//input[@id='booking-date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84131377-9d6f-46a6-a986-ca16e815ca81",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const now = new Date();const today = [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');const date = \"2027-11-21\";const input = document.getElementById('booking-date');if (!input) throw new Error('Không tìm thấy ô booking-date');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, date);input.dispatchEvent(new Event('input', {bubbles:true}));input.dispatchEvent(new Event('change', {bubbles:true}));const actual = document.getElementById('booking-date').value;const expected = date < today ? today : date;if (actual !== expected) throw new Error('Ngày chưa đổi: ' + actual + ', mong đợi: ' + expected);const current = document.getElementById('booking-date');current.style.outline='3px solid red';current.style.outlineOffset='3px';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486c32b4-3c58-4217-b494-b0f4a07c6b4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(9) > .slot",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(9) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[5]/td[9]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0888add-1e0b-4508-aea5-8755741becee",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(10) > .slot",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(10) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[5]/td[10]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[10]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03572713-34c9-48ec-9cde-48418ddbddb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > td:nth-child(11) > .slot",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(11) > .slot", "css:finder"],
+        ["xpath=//div[@id='app']/main/table/tbody/tr[5]/td[11]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[11]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33a3b70d-e8bd-44f0-8b2b-2f1b67c2e3dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-next",
+      "targets": [
+        ["id=booking-next", "id"],
+        ["css=#booking-next", "css:finder"],
+        ["xpath=//button[@id='booking-next']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TIẾP THEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20d13646-7a65-4add-bcb3-af8b649c54d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-booking",
+      "targets": [
+        ["id=confirm-booking", "id"],
+        ["css=#confirm-booking", "css:finder"],
+        ["xpath=//button[@id='confirm-booking']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận đặt sân')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e880af70-a3e8-46b9-afdc-78e876126265",
+      "comment": "",
+      "command": "click",
+      "target": "id=view-my-bookings",
+      "targets": [
+        ["id=view-my-bookings", "id"],
+        ["css=#view-my-bookings", "css:finder"],
+        ["xpath=//button[@id='view-my-bookings']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[3]", "xpath:idRelative"],
+        ["xpath=//section/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Xem lịch đã đặt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7efa24ab-69e2-46b9-a1a0-d3a11350cd02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.booking-item:nth-child(2) .danger",
+      "targets": [
+        ["css=.booking-item:nth-child(2) .danger", "css:finder"],
+        ["xpath=//div[@id='results']/article/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Hủy lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10bd7239-2930-4597-96b3-d701ddd7a53d",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm-cancel",
+      "targets": [
+        ["id=confirm-cancel", "id"],
+        ["css=#confirm-cancel", "css:finder"],
+        ["xpath=//button[@id='confirm-cancel']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div/section/button[2]", "xpath:idRelative"],
+        ["xpath=//section/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận hủy lịch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0be4fc95-26ed-476a-ad84-b81425d14aad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.booking-item:nth-child(2) > div:nth-child(1)",
+      "targets": [
+        ["css=.booking-item:nth-child(2) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='results']/article/div", "xpath:idRelative"],
+        ["xpath=//article/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a738093-81fe-42fd-bd04-193d02e767a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.booking-item:nth-child(2) > div:nth-child(1)",
+      "targets": [
+        ["css=.booking-item:nth-child(2) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='results']/article/div", "xpath:idRelative"],
+        ["xpath=//article/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1402537-bf69-427b-9241-c72b34ecb4f5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63f45e40-07c8-4f65-8db8-8d9111478281"]
+  }],
+  "urls": ["http://localhost:8000/"],
+  "plugins": []
+}
